@@ -1,0 +1,23 @@
+.header {
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    width: 50%;
+    height: 10vh;
+    z-index: 100;
+    margin-left: 65px;
+    
+  }
+  .header__house {
+    z-index: 98;
+    width: 25px;
+  }
+  .header__title {
+     margin-left: 1%;
+     font-family: "Gilroy";
+     font-size: larger;
+      
+  }
+  .header__stick {
+    margin-left: 1%;
+}

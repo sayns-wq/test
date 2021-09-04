@@ -1,0 +1,223 @@
+.slide{
+    width: 1024px;
+    height: 768px;
+    overflow: hidden;
+    position: relative;
+    /* display: inline-block; */
+    background-image: url('../../img/bg.png');
+    background-size: cover;
+}
+.slide__greeting{
+    margin-top: 15%;
+    margin-left: 6.7%;
+
+}
+.slide__greeting_hi{
+    font-size:1.8em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.slide__greeting_info{
+    margin-top: 15px;
+    font-size: 7em;
+    font-family: "Gilroy";
+    color: rgb(23, 23, 23);
+    text-transform: uppercase;
+    line-height: 1.073;
+    text-align: left;
+    z-index: 6;
+    font-weight: 500;
+   
+}
+.slide__greeting_bold{
+    font-weight: bolder;
+}
+.slide__greeting_button{
+    display: grid;
+    grid-template-areas: 'img txt';
+    position: absolute;
+    padding: 5px 0px;
+    padding-right: 40px;
+    background-color: #ff6a9f;
+    border-radius: 50px;
+    margin-left: 4%;
+    width: 290px;
+    margin-left: 550px;
+    margin-top: -170px;
+    justify-content: center;
+}
+.slide__img{
+    grid-area: img;
+    margin-left: 18px;
+}
+.slide__button_text{
+    grid-area: txt;
+    font-size: 2em;
+    margin-top: 12px;
+}
+.slide__bakti{
+  animation: bobble 15s infinite;
+    position: absolute;
+    left: 2%;
+    top: 65%;
+    width: 66px;
+    height: 62px;
+    z-index: 4;
+  }
+  .slide__sperm{
+    position: absolute;
+    left: 42%;
+    top: 15%;
+    width: 600px;
+    height: 146px;
+    z-index: 3;
+  }
+  .slide__bakti6 {
+    position: absolute;
+    left: 85%;
+    top: 25%;
+    width: 100px;
+    height: 100px;
+    z-index: 17;
+    animation: rotate 20s infinite;
+  }
+  .slide__bakti5 {
+    position: absolute;
+    left: 0;
+    top: 8%;
+    width: 128px;
+    height: 131px;
+    z-index: 16;
+  }
+  .slide__bakti4 {
+    position: absolute;
+    left: 73%;
+    top: 7%;
+    width: 70px;
+    height: 68px;
+    z-index: 15;
+    animation: bobble 20s infinite;
+  }
+  .slide__bakti1 {
+    position: absolute;
+    left: 35%;
+    top: 80%;
+    width: 90px;
+    height: 92px;
+    z-index: 14;
+  }
+  .slide__bakti2 {
+    position: absolute;
+    right: 2%;
+    top: 4%;
+    width: 69px;
+    height: 55px;
+    z-index: 13;
+  }
+  
+  .slide__bakti3 {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 255px;
+    height: 138px;
+    z-index: 12;
+    animation: bacti_scale 20s infinite;
+  }
+  .slide__sperm1 {
+    position: absolute;
+    left: 5%;
+    top: 75%;
+    width: 200px;
+    height: 225px;
+    z-index: 11;
+  }
+  .slide__bakti6_rotate{
+    animation: bobble_rotate 20s linear infinite;
+    width: 100px;
+    position: absolute;
+    left: 75%;
+    top: 25%;
+  }
+.slide__bakti3_scale{
+  animation: bacti 20s linear infinite;
+  position: absolute;
+  left: 30%;
+  bottom: 0;
+  width: 255px;
+  height: 138px;
+}
+  @keyframes bobble {
+    0% {
+        transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;
+    }
+    50% {
+        transform: translate3d(80px, 80px, 0px);
+        animation-timing-function: ease-in;
+    }
+    100% {
+        transform: translate3d(0px, 0px, 0px);
+    }
+}
+@keyframes bobble_rotate {
+  0% {
+      transform: translate3d(0px, 0px, 0px);
+      animation-timing-function: linear;
+  }
+  20% {
+      transform: translate3d(-60px, -5px, 0px);
+      animation-timing-function: linear;
+}
+  40% {
+      transform: translate3d(-10px, -10px, 0px);
+      animation-timing-function: linear;
+}
+  50% {
+      transform: translate3d(0px, -30px, 0px);
+      animation-timing-function: linear;
+  }
+  70% {
+      transform: translate3d(10px, -10px, 0px);
+      animation-timing-function: linear;
+}
+90% {
+      transform: translate3d(30px, -5px, 0px);
+      animation-timing-function: linear;
+}
+  100% {
+      transform: translate3d(0px, 0px, 0px);
+  }
+}
+@keyframes rotate {
+  0% {
+      transform:rotate(0deg);
+  }
+  100% {
+      transform:rotate(360deg);
+  }
+}
+@keyframes bacti {
+  0% {
+      transform: translate3d(0px, 0px, 0px);
+      animation-timing-function: ease-in;
+  }
+  50% {
+      transform: translate3d(20px, 20px, 0px);
+      animation-timing-function: ease-in;
+  }
+  100% {
+      transform: translate3d(0px, 0px, 0px);
+  }
+}
+@keyframes bacti_scale {
+  0% {
+    transform: scale(1)
+  }
+50% {
+  transform: scale(1.1)
+}
+100% {
+  transform: scale(1)
+}
+}

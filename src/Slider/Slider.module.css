@@ -1,0 +1,12 @@
+.slider{
+    width: 1024px;
+    height: 100vh;
+    overflow: hidden !important;
+    position: relative;
+    margin: 0 auto;
+}
+.slider__inner{
+    display: flex;
+    width: 300%;
+    transition: 0.5s all;
+}
