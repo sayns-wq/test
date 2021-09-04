@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/test/static/css/main.ad620e32.chunk.css",
+    "main.js": "/test/static/js/main.b7880cc7.chunk.js",
+    "main.js.map": "/test/static/js/main.b7880cc7.chunk.js.map",
+    "runtime-main.js": "/test/static/js/runtime-main.a342c2d2.js",
+    "runtime-main.js.map": "/test/static/js/runtime-main.a342c2d2.js.map",
+    "static/js/2.d58d47e8.chunk.js": "/test/static/js/2.d58d47e8.chunk.js",
+    "static/js/2.d58d47e8.chunk.js.map": "/test/static/js/2.d58d47e8.chunk.js.map",
+    "static/js/3.20e1a312.chunk.js": "/test/static/js/3.20e1a312.chunk.js",
+    "static/js/3.20e1a312.chunk.js.map": "/test/static/js/3.20e1a312.chunk.js.map",
+    "index.html": "/test/index.html",
+    "static/css/main.ad620e32.chunk.css.map": "/test/static/css/main.ad620e32.chunk.css.map",
+    "static/js/2.d58d47e8.chunk.js.LICENSE.txt": "/test/static/js/2.d58d47e8.chunk.js.LICENSE.txt",
+    "static/media/Layer_3_copy_2.14fb2bba.png": "/test/static/media/Layer_3_copy_2.14fb2bba.png",
+    "static/media/Layer_3_copy_3.51925495.png": "/test/static/media/Layer_3_copy_3.51925495.png",
+    "static/media/Layer_3_copy_4.ca3ee324.png": "/test/static/media/Layer_3_copy_4.ca3ee324.png",
+    "static/media/Layer_3_copy_5.af05d2e7.png": "/test/static/media/Layer_3_copy_5.af05d2e7.png",
+    "static/media/Layer_3_copy_6.4889c2c4.png": "/test/static/media/Layer_3_copy_6.4889c2c4.png",
+    "static/media/Layer_4.9dcdec53.png": "/test/static/media/Layer_4.9dcdec53.png",
+    "static/media/Layer_4_copy.4fd125d7.png": "/test/static/media/Layer_4_copy.4fd125d7.png",
+    "static/media/Layer_4_copy_2.cae695ab.png": "/test/static/media/Layer_4_copy_2.cae695ab.png",
+    "static/media/Layer_5.bb99c99d.png": "/test/static/media/Layer_5.bb99c99d.png",
+    "static/media/Layer_7.eb3f7935.png": "/test/static/media/Layer_7.eb3f7935.png",
+    "static/media/Layer_8.885f267e.png": "/test/static/media/Layer_8.885f267e.png",
+    "static/media/bakti_1.2c1bfaa7.png": "/test/static/media/bakti_1.2c1bfaa7.png",
+    "static/media/SecondSlide.module.css": "/test/static/media/bg.3563850e.png",
+    "static/media/bottle.9eeef578.png": "/test/static/media/bottle.9eeef578.png",
+    "static/media/bubble4.82ab9922.png": "/test/static/media/bubble4.82ab9922.png",
+    "static/media/bubble5.3662ce8c.png": "/test/static/media/bubble5.3662ce8c.png",
+    "static/media/bubble6.8e00f732.png": "/test/static/media/bubble6.8e00f732.png",
+    "static/media/bubble8.651bb333.png": "/test/static/media/bubble8.651bb333.png",
+    "static/media/pink_sperm.e1924942.png": "/test/static/media/pink_sperm.e1924942.png",
+    "static/media/pink_sperm_1.dd359ecc.png": "/test/static/media/pink_sperm_1.dd359ecc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a342c2d2.js",
+    "static/js/2.d58d47e8.chunk.js",
+    "static/css/main.ad620e32.chunk.css",
+    "static/js/main.b7880cc7.chunk.js"
+  ]
+}
